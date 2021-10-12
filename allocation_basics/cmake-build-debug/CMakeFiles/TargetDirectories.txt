@@ -1,0 +1,3 @@
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/allocation_basics/cmake-build-debug/CMakeFiles/allocation_basics.dir
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/allocation_basics/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/allocation_basics/cmake-build-debug/CMakeFiles/rebuild_cache.dir
