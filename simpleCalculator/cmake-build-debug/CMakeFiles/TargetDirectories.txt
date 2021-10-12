@@ -1,5 +1,3 @@
-C:/Users/bartek/CLionProjects/simpleCalc/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/bartek/CLionProjects/simpleCalc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/bartek/CLionProjects/simpleCalc/cmake-build-debug/src/CMakeFiles/simpleCalc.dir
-C:/Users/bartek/CLionProjects/simpleCalc/cmake-build-debug/src/CMakeFiles/edit_cache.dir
-C:/Users/bartek/CLionProjects/simpleCalc/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/cmake-build-debug/CMakeFiles/simpleCalculator.dir
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir

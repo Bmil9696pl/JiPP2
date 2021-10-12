@@ -46,10 +46,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\bartek\CLionProjects\simpleCalc
+CMAKE_SOURCE_DIR = C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\bartek\CLionProjects\simpleCalc\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bartek\CLionProjects\simpleCalc\cmake-build-debug\CMakeFiles C:\Users\bartek\CLionProjects\simpleCalc\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\cmake-build-debug\CMakeFiles C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bartek\CLionProjects\simpleCalc\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -106,17 +106,65 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named simp
+# Target rules for targets named simpleCalculator
 
 # Build rule for target.
-simpleCalc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) simpleCalc
-.PHONY : simpleCalc
+simpleCalculator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) simpleCalculator
+.PHONY : simpleCalculator
 
 # fast build rule for target.
-simpleCalc\fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\simpleCalc.dir\build.make /nologo -$(MAKEFLAGS) src\CMakeFiles\simpleCalc.dir\build
-.PHONY : simpleCalc\fast
+simpleCalculator\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleCalculator.dir\build
+.PHONY : simpleCalculator\fast
+
+src\calc.obj: src\calc.cpp.obj
+.PHONY : src\calc.obj
+
+# target to build an object file
+src\calc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleCalculator.dir\src\calc.cpp.obj
+.PHONY : src\calc.cpp.obj
+
+src\calc.i: src\calc.cpp.i
+.PHONY : src\calc.i
+
+# target to preprocess a source file
+src\calc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleCalculator.dir\src\calc.cpp.i
+.PHONY : src\calc.cpp.i
+
+src\calc.s: src\calc.cpp.s
+.PHONY : src\calc.s
+
+# target to generate assembly for a file
+src\calc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleCalculator.dir\src\calc.cpp.s
+.PHONY : src\calc.cpp.s
+
+src\main.obj: src\main.cpp.obj
+.PHONY : src\main.obj
+
+# target to build an object file
+src\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleCalculator.dir\src\main.cpp.obj
+.PHONY : src\main.cpp.obj
+
+src\main.i: src\main.cpp.i
+.PHONY : src\main.i
+
+# target to preprocess a source file
+src\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleCalculator.dir\src\main.cpp.i
+.PHONY : src\main.cpp.i
+
+src\main.s: src\main.cpp.s
+.PHONY : src\main.s
+
+# target to generate assembly for a file
+src\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\simpleCalculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\simpleCalculator.dir\src\main.cpp.s
+.PHONY : src\main.cpp.s
 
 # Help Target
 help:
@@ -126,7 +174,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... simpleCalc
+	@echo ... simpleCalculator
+	@echo ... src/calc.obj
+	@echo ... src/calc.i
+	@echo ... src/calc.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

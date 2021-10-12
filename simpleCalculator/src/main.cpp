@@ -1,22 +1,30 @@
+#include <string>
 #include <iostream>
-#include "ctype.h"
+#include "../include/calc.h"
 using namespace std;
 
 int main(int argc, char *argv[]){
-    int wynik, a, b;
-    for (int i = 0; i < argc; ++i){
-        cout << "argv[" << i <<"] == " << argv[i] << endl;
+    string bababooey = argv[1];
+    if(argc != 2){
+        help();
+        return 0;
     }
-    if (!isalnum(static_cast<unsigned char>(*argv[1]))){
-        return false;
+    if(bababooey == "add"){
+        cout << add() << endl;
+        return 0;
     }
-    if (!isalnum(static_cast<unsigned char>(*argv[2]))){
-        return false;
+    if(bababooey == "substract"){
+        cout << substract() << endl;
+        return 0;
     }
-    a = *argv[2] - '0';
-    b = *argv[3] - '0';
-    if(argv[1] == "add"){
-        wynik =  a + b;
+    if(bababooey == "volume"){
+        cout << volume() << endl;
+        return 0;
     }
-    return wynik;
+    if(bababooey == "help"){
+        help();
+        return 0;
+    }
+    help();
+    return 0;
 }

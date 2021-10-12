@@ -5,6 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 #include_directories(include)
 
-add_executable(allocation_basics main.cpp ../simpleCalculator/src/main.cpp)
+add_executable(allocation_basics main.cpp)
 
 #target_link_libraries(HelloWorld pthread)

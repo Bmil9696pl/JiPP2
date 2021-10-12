@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/allocation_basics.dir/C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/src/main.cpp.obj"
   "CMakeFiles/allocation_basics.dir/main.cpp.obj"
   "allocation_basics.exe"
   "allocation_basics.exe.manifest"

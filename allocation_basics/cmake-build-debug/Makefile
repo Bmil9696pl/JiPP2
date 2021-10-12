@@ -118,30 +118,6 @@ allocation_basics\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\allocation_basics.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\allocation_basics.dir\build
 .PHONY : allocation_basics\fast
 
-C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.obj: C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.obj
-.PHONY : C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.obj
-
-# target to build an object file
-C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\allocation_basics.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.obj
-.PHONY : C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.obj
-
-C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.i: C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.i
-.PHONY : C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.i
-
-# target to preprocess a source file
-C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\allocation_basics.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.i
-.PHONY : C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.i
-
-C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.s: C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.s
-.PHONY : C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.s
-
-# target to generate assembly for a file
-C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\allocation_basics.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.s
-.PHONY : C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -175,9 +151,6 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... allocation_basics
-	@echo ... C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/src/main.obj
-	@echo ... C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/src/main.i
-	@echo ... C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/src/main.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
