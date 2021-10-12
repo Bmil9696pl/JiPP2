@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalc/src/main.cpp" "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/allocation_basics/cmake-build-debug/CMakeFiles/allocation_basics.dir/C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalc/src/main.cpp.obj"
+  "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/src/main.cpp" "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/allocation_basics/cmake-build-debug/CMakeFiles/allocation_basics.dir/C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/src/main.cpp.obj"
   "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/allocation_basics/main.cpp" "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/allocation_basics/cmake-build-debug/CMakeFiles/allocation_basics.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

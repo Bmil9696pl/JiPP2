@@ -74,35 +74,35 @@ CMakeFiles\allocation_basics.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\allocation_basics.dir\main.cpp.s /c C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\allocation_basics\main.cpp
 <<
 
-CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp.obj: CMakeFiles\allocation_basics.dir\flags.make
-CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp.obj: C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/allocation_basics.dir/C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalc/src/main.cpp.obj"
+CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.obj: CMakeFiles\allocation_basics.dir\flags.make
+CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.obj: C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/allocation_basics.dir/C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/src/main.cpp.obj"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp.obj /FdCMakeFiles\allocation_basics.dir\ /FS -c C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.obj /FdCMakeFiles\allocation_basics.dir\ /FS -c C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp
 <<
 
-CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/allocation_basics.dir/C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalc/src/main.cpp.i"
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp
+CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/allocation_basics.dir/C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/src/main.cpp.i"
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp
 <<
 
-CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/allocation_basics.dir/C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalc/src/main.cpp.s"
+CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/allocation_basics.dir/C_/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/simpleCalculator/src/main.cpp.s"
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp.s /c C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.s /c C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp
 <<
 
 # Object files for target allocation_basics
 allocation_basics_OBJECTS = \
 "CMakeFiles\allocation_basics.dir\main.cpp.obj" \
-"CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp.obj"
+"CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.obj"
 
 # External object files for target allocation_basics
 allocation_basics_EXTERNAL_OBJECTS =
 
 allocation_basics.exe: CMakeFiles\allocation_basics.dir\main.cpp.obj
-allocation_basics.exe: CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalc\src\main.cpp.obj
+allocation_basics.exe: CMakeFiles\allocation_basics.dir\C_\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\simpleCalculator\src\main.cpp.obj
 allocation_basics.exe: CMakeFiles\allocation_basics.dir\build.make
 allocation_basics.exe: CMakeFiles\allocation_basics.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable allocation_basics.exe"

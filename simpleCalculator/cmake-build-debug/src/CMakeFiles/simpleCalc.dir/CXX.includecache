@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/bartek/CLionProjects/simpleCalc/src/main.cpp
+iostream
+-
+ctype.h
+C:/Users/bartek/CLionProjects/simpleCalc/src/ctype.h
+
