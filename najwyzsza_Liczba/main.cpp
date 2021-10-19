@@ -1,4 +1,5 @@
 #include <iostream>
+#include "ctime"
 using namespace std;
 
 int main(){
@@ -18,5 +19,6 @@ int main(){
     for (int i = 0; i < size ; i++){
         if(ok < arr[i]) ok = arr[i];
     }
+    free(arr);
     return ok;
 };
