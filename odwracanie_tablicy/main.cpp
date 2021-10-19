@@ -17,7 +17,7 @@ int main(){
     int* arr;
     cout << "Jak duza tablice chcesz wygenerowac?" << endl;
     cin >> size;
-    arr = (int*)malloc(size * sizeof(int));
+    arr = new int [size]();
     srand(time(NULL));
     for (int i = 0; i < size ; i++) {
         arr[i] = (rand() % 100) + 1;
@@ -29,6 +29,6 @@ int main(){
     for (int i = 0; i < size ; i++){
         cout << arr[i] << endl;
     }
-    free(arr);
+    delete[] arr;
     return 0;
 }
