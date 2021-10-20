@@ -1,3 +1,3 @@
 cmake_minimum_required(VERSION 3.16)
 project(JIPP2)
-add_subdirectory(string_to_int)
+add_subdirectory(sort)
