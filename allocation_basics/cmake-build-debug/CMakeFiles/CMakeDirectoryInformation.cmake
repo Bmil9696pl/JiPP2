@@ -6,7 +6,7 @@ set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/Users/bartek/CLionProjects/JiPP2-Bart-omi
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/allocation_basics/cmake-build-debug")
 
 
-# The C and CXX include file regular expressions for this directory.
+# The C and CXX matrixLib file regular expressions for this directory.
 set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")
 set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")
 set(CMAKE_CXX_INCLUDE_REGEX_SCAN ${CMAKE_C_INCLUDE_REGEX_SCAN})

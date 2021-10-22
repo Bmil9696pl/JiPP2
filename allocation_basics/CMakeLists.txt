@@ -3,7 +3,7 @@ project(allocation_basics)
 
 set(CMAKE_CXX_STANDARD 20)
 
-#include_directories(include)
+#include_directories(matrixLib)
 
 add_executable(allocation_basics main.cpp)
 

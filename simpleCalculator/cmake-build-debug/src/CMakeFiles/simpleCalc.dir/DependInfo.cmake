@@ -12,7 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
-# The include file search paths:
+# The matrixLib file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
