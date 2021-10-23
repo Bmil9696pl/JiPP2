@@ -5,6 +5,21 @@ using namespace std;
 
 //int
 
+bool check_command(string command)
+{
+    string command_list[10] = {"addMatrix", "subtractMatrix", "multiplyMatrix", "multiplyByScalar",
+                               "transpozeMatrix", "powerMatrix", "determinantMatrix",
+                               "matrixIsDiagonal", "sortRow", "sortRowsInMatrix"};
+
+    for (int i = 0; i < 10; ++i)
+    {
+        if(command == command_list[i])
+            return true;
+    }
+
+    return false;
+}
+
 int **create_matrix(int rows, int columns) {
     int **tmp_matrix = new int *[columns];
 
@@ -169,9 +184,6 @@ int determinantMatrix(int **matrix, int rows, int columns) {
 
         return result;
     }
-
-
-    return 0;
 }
 
 bool matrixIsDiagonal(int **matrix, int rows, int columns) {
@@ -371,9 +383,6 @@ double determinantMatrix(double **matrix, int rows, int columns) {
 
         return result;
     }
-
-
-    return 0;
 }
 
 bool matrixIsDiagonal(double **matrix, int rows, int columns) {

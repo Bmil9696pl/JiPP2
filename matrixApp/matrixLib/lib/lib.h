@@ -5,6 +5,8 @@
 #ifndef JIPP2_LIB_H
 
 #define JIPP2_LIB_H
+bool check_command(std::string command);
+
 int **create_matrix(int rows, int columns);
 void fill_matrix(int **matrix, int rows, int columns);
 void print_matrix(int **matrix, int rows, int columns);
@@ -21,7 +23,7 @@ void swap(int *a, int *b);
 void sortRow(int *arr, int columns);
 void sortRowsInMatrix(int **matrix, int rows, int columns);
 //double
-double **create_matrix(int rows, int columns);
+double **create_matrix_db(int rows, int columns);
 void fill_matrix(double **matrix, int rows, int columns);
 void print_matrix(double **matrix, int rows, int columns);
 double **addMatrix(double **matrix_a, double **matrix_b, int rows_a, int columns_a);
