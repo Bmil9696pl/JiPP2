@@ -4,7 +4,8 @@
 
 using namespace std;
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     /*
     int rows = 2, columns = 2, variable_type = 0;
     cout << "Czy zmienne beda typu int -> 0 czy double -> 1:" << endl;
@@ -43,49 +44,55 @@ int main(int argc, char *argv[]) {
     }
     */
 
-    if (argv[1] == "help") {
+    if (argv[1] == "help")
+    {
 
         //do napisania help
 
-    } else if (check_command(argv[1])) {
+    }
+    else if (check_command(argv[1]))
+    {
         int rows_a = 1, columns_a = 1, variable_type = 0;
 
-        cout << "Podaj liczbe rzedow i kolumn" << endl;
-        cin >> rows_a >> columns_a;
+        int **int_matrix_a = NULL;
+        int **int_matrix_b = NULL;
+
+        rows_a = stoi(argv[2]);
+        columns_a = stoi(argv[3]);
 
         cout << "Czy zmienne beda typu int -> 0 czy double -> 1:" << endl;
         cin >> variable_type;
 
-        if (variable_type == 0) {
-            int **int_matrix_a = NULL;
+        if (variable_type == 0)
+        {
             int_matrix_a = create_matrix(rows_a, columns_a);
             fill_matrix(int_matrix_a, rows_a, columns_a);
-        } else if (variable_type == 1) {
-            double **int_matrix_a = NULL;
+        }
+        else if (variable_type == 1)
             int_matrix_a = create_matrix_db(rows_a, columns_a); //poprawic trzeba
-        }
-            else {
-        }
+        else
+        {
             cout << "! Variable type error !" << endl;
             return 0;
+        }
 
 
-
-        if (argv[1] == "addMatrix") {
+        if (argv[1] == "addMatrix")
+        {
             int rows_b = 1, columns_b = 1;
 
             cout << "Podaj liczbe wierszy i kolumn drugiej macierzy" << endl;
             cin >> rows_b;
             cin >> columns_b;
 
-            if (variable_type == 0) {
-                int **int_matrix_b = NULL;
-                int_matrix_b = create_matrix(rows_b, columns_b);
-                fill_matrix(int_matrix_b, rows_b, columns_b);
-            } else if (variable_type == 1){
-                double **int_matrix_b = NULL;
-                int_matrix_b = create_matrix_db(rows_b, columns_b); //poprawic trzeba
+            if (variable_type == 0)
+            {
+                int_matrix_b = creat_matrix(rows_b, columns_b);
+                fill_matrix(int_matrix_a, rows_b, columns_b);
             }
+            else if (variable_type == 1)
+                int_matrix_b = creat_matrix(rows_b, columns_b); //poprawic trzeba
+
 
 
             //Tu skonczylem
@@ -94,27 +101,47 @@ int main(int argc, char *argv[]) {
 
 
 
-        } else if (argv[1] == "subtractMatrix") {
+        }
+        else if (argv[1] == "subtractMatrix")
+        {
 
-        } else if (argv[1] == "multiplyMatrix") {
+        }
+        else if (argv[1] == "multiplyMatrix")
+        {
 
-        } else if (argv[1] == "multiplyByScalar") {
+        }
+        else if (argv[1] == "multiplyByScalar")
+        {
 
-        } else if (argv[1] == "transpozeMatrix") {
+        }
+        else if (argv[1] == "transpozeMatrix")
+        {
 
-        } else if (argv[1] == "determinantMatrix") {
+        }
+        else if (argv[1] == "determinantMatrix")
+        {
 
-        } else if (argv[1] == "matrixIsDiagonal") {
+        }
+        else if (argv[1] == "matrixIsDiagonal")
+        {
 
-        } else if (argv[1] == "sortRow") {
+        }
+        else if (argv[1] == "sortRow")
+        {
 
-        } else if (argv[1] == "sortRowsInMatrix") {
+        }
+        else if (argv[1] == "sortRowsInMatrix")
+        {
 
-        } else {
+        }
+        else
+        {
             cout << "error" << endl;
         }
 
-    } else {
+    }
+    else
+    {
         cout << "! Nieznana komenda !" << endl;
     }
 
