@@ -296,18 +296,18 @@ int main(int argc, char *argv[]) {
                 result_matrix = transpozeMatrix(int_matrix_a, rows_a, columns_a);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_a);
+                print_matrix(result_matrix, columns_a, rows_a);
 
-                delete_matrix(result_matrix, rows_a);
+                delete_matrix(result_matrix, columns_a);
             } else if (variable_type == 1) {
                 double **result_matrix = nullptr;
 
                 result_matrix = transpozeMatrix(double_matrix_a, rows_a, columns_a);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_a);
+                print_matrix(result_matrix, columns_a, rows_a);
 
-                delete_matrix(result_matrix, rows_a);
+                delete_matrix(result_matrix, columns_a);
             }
         } else if (operation == "powerMatrix") {
             if (variable_type == 0) {

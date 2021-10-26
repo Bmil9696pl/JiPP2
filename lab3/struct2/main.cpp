@@ -50,7 +50,7 @@ int stary_samochod(samochod* s){
         }
     }
     return a;
-}
+}6
 
 int main(){
     samochod garaz[4] = {{"mercedes", "benz", 1998, "czerwony"},

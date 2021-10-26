@@ -25,7 +25,7 @@ int **create_matrix_int(int rows, int columns) { //tworzenie macierzy, najpierw 
         tmp_matrix[i] = new int[columns];
 
         for (int j = 0; j < columns; ++j) {
-            tmp_matrix[i][j] = 0;
+            tmp_matrix[i][j] = 0; //wpisanie wartosci 0 do kazdej komorki macierzy
         }
     }
 
@@ -130,21 +130,23 @@ int **transpozeMatrix(int **matrix, int rows, int columns) { //transponowanie ma
 }
 
 int **powerMatrix(int **matrix, int rows, int columns, int m_power) {
-    int **result_matrix = nullptr;
-
-    result_matrix = matrix;
-
-    for (int l = 1; l < m_power; ++l) {  //petla podobna do tej znajdujacej sie w funkcji mnozenia, z tym, ze jest ona powtarzana tyle razy, ile
-        for (int i = 0; i < rows; ++i) { //wynosi potega
-            for (int j = 0; j < columns; ++j) {
-                for (int k = 0; k < columns; ++k) {
-                    result_matrix[i][j] += result_matrix[i][k] * matrix[k][j];
+    if(m_power == 1){
+        return matrix;
+    }
+    else if(m_power == 0){
+        for(int i = 0; i < rows ; ++i){
+            for(int j = 0; i < columns; ++j){
+                if(i == j){
+                    matrix[i][j] = 1;
+                }
+                else{
+                    matrix[i][j] = 0;
                 }
             }
         }
     }
-
-    return result_matrix;
+    else
+    return multiplyMatrix(matrix, powerMatrix(matrix, rows, columns, m_power - 1), rows, columns, columns);
 }
 
 int **submatrix(int **matrix, int row_index, int column_index, int matrix_size) { //funkcja tworzy "podmacierz" (macierz z ktorej usunieto
@@ -174,7 +176,7 @@ int determinantMatrix(int **matrix, int rows, int columns) {
     if (rows == 1)      //przypadek elementarny dla macierzy [1][1]
         return matrix[0][0];
     else if (rows == 2)     //przypadek elementarny dla macierzy [2][2]
-        return (matrix[0][0] * matrix[1][1]) - (matrix[0][1] - matrix[1][0]);
+        return (matrix[0][0] * matrix[1][1]) - (matrix[0][1] * matrix[1][0]);
     else {
         int result = 0, sign = 1; //sign - zmiana znaku (+/-)
 
@@ -183,7 +185,7 @@ int determinantMatrix(int **matrix, int rows, int columns) {
         for (int i = 0; i < rows; ++i) {
             temp_matrix = submatrix(matrix, 0, i, rows);
 
-            result += sign * temp_matrix[0][i] * determinantMatrix(temp_matrix, rows - 1, rows - 1);
+            result += sign * matrix[0][i] * determinantMatrix(temp_matrix, rows - 1, rows - 1);
 
             sign = -sign;
         }
@@ -344,21 +346,23 @@ double **transpozeMatrix(double **matrix, int rows, int columns) {
 }
 
 double **powerMatrix(double **matrix, int rows, int columns, double m_power) {
-    double **result_matrix = nullptr;
-
-    result_matrix = matrix;
-
-    for (int l = 1; l < m_power; ++l) {
-        for (int i = 0; i < rows; ++i) {
-            for (int j = 0; j < columns; ++j) {
-                for (int k = 0; k < columns; ++k) {
-                    result_matrix[i][j] += result_matrix[i][k] * matrix[k][j];
+    if(m_power == 1){
+        return matrix;
+    }
+    else if(m_power == 0){
+        for(int i = 0; i < rows ; ++i){
+            for(int j = 0; i < columns; ++j){
+                if(i == j){
+                    matrix[i][j] = 1;
+                }
+                else{
+                    matrix[i][j] = 0;
                 }
             }
         }
     }
-
-    return result_matrix;
+    else
+        return multiplyMatrix(matrix, powerMatrix(matrix, rows, columns, m_power - 1), rows, columns, columns);
 }
 
 double **submatrix(double **matrix, int row_index, int column_index, int matrix_size) {
@@ -388,7 +392,7 @@ double determinantMatrix(double **matrix, int rows, int columns) {
     if (rows == 1)
         return matrix[0][0];
     else if (rows == 2)
-        return (matrix[0][0] * matrix[1][1]) - (matrix[0][1] - matrix[1][0]);
+        return (matrix[0][0] * matrix[1][1]) - (matrix[0][1] * matrix[1][0]);
     else {
         double result = 0, sign = 1;
 
@@ -397,7 +401,7 @@ double determinantMatrix(double **matrix, int rows, int columns) {
         for (int i = 0; i < rows; ++i) {
             temp_matrix = submatrix(matrix, 0, i, rows);
 
-            result += sign * temp_matrix[0][i] * determinantMatrix(temp_matrix, rows - 1, rows - 1);
+            result += sign * matrix[0][i] * determinantMatrix(temp_matrix, rows - 1, rows - 1);
 
             sign = -sign;
         }

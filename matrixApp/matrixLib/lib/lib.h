@@ -1,10 +1,11 @@
-//
-// Created by bartek on 22.10.2021.
-//
-
 #ifndef JIPP2_LIB_H
 
 #define JIPP2_LIB_H
+
+#include <string>
+
+bool check_command(std::string command);
+
 int **create_matrix_int(int rows, int columns);
 
 bool fill_matrix(int **matrix, int rows, int columns);
