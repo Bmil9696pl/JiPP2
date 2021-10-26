@@ -4,6 +4,8 @@
 
 #include <string>
 
+void help();
+
 bool check_command(std::string command);
 
 int **create_matrix_int(int rows, int columns);

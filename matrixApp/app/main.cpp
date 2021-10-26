@@ -10,7 +10,8 @@ int main(int argc, char *argv[]) {
 
     if (operation == "help") { //help(duh)
 
-        //do napisania help
+        help();
+        return 0;
 
     } else if (check_command(operation)) { //sprawdzenie czy zostala podana poprawna komenda
         int rows_a = 1, columns_a = 1, variable_type = 0; //deklaracja podstawowych zmiennych

@@ -3,6 +3,20 @@
 
 using namespace std;
 
+void help(){
+    cout << "Oto kalkulator macierzy!" << endl;
+    cout << "Do wyboru masz nastepujace funkcje:" << endl;
+    cout << "addMatrix - doda do siebie dwie macierze" << endl;
+    cout << "subtractMatrix - odejmie macierz B od macierzy A" << endl;
+    cout << "multiplyMatrix - pomnozy ze soba macierz A i B" << endl;
+    cout << "multiplyByScalar - pomnozy macierz A przez podany przez ciebie skalar" << endl;
+    cout << "transpozeMatrix - transponuje podana przez ciebie macierz" << endl;
+    cout << "powerMatrix - spoteguje macierz A do n-tej potegi" << endl;
+    cout << "determinantMatrix - oblicza wyznacznik macierzy A" << endl;
+    cout << "matrixIsDiagonal - sprawdza czy macierz jest diagonalna" << endl;
+    cout << "sortRowsInMatrix - sortuje wiersze w macierzy" << endl;
+}
+
 bool check_command(string command) {
     string command_list[9] = {"addMatrix", "subtractMatrix", "multiplyMatrix", "multiplyByScalar",
                               "transpozeMatrix", "powerMatrix", "determinantMatrix",
