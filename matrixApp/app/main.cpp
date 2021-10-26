@@ -408,6 +408,8 @@ int main(int argc, char *argv[]) {
 
     } else {
         cout << "! Nieznana komenda !" << endl;
+        help();
+        return 0;
     }
 
 
