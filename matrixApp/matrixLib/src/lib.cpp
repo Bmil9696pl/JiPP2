@@ -14,7 +14,7 @@ void help(){
     cout << "powerMatrix - spoteguje macierz A do n-tej potegi" << endl;
     cout << "determinantMatrix - oblicza wyznacznik macierzy A" << endl;
     cout << "matrixIsDiagonal - sprawdza czy macierz jest diagonalna" << endl;
-    cout << "sortRowsInMatrix - sortuje wiersze w macierzy" << endl;
+    cout << "sortRowsInMatrix - sortuje wiersze w macierzy w kolejnosci rosnacej" << endl;
 }
 
 bool check_command(string command) {
