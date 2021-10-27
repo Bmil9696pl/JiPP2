@@ -8,12 +8,12 @@ int main(int argc, char *argv[]) {
     string operation = "help";
     operation = argv[1];
 
-    if (operation == "help") { //help(duh)
+    if (operation == "help") {
 
         help();
         return 0;
 
-    } else if (check_command(operation)) { //sprawdzenie czy zostala podana poprawna komenda
+    } else if (checkCommand(operation)) { //sprawdzenie czy zostala podana poprawna komenda
         int rows_a = 1, columns_a = 1, variable_type = 0; //deklaracja podstawowych zmiennych
 
         int **int_matrix_a = nullptr;
@@ -36,15 +36,15 @@ int main(int argc, char *argv[]) {
         }
 
         if (variable_type == 0) {
-            int_matrix_a = create_matrix_int(rows_a, columns_a); //tworzenie macierzy
-            if (!fill_matrix(int_matrix_a, rows_a, columns_a)) {
-                delete_matrix(int_matrix_a, rows_a); //zabezpieczenie przed nieudanym wypelnianiu macierzy
+            int_matrix_a = createMatrixInt(rows_a, columns_a); //tworzenie macierzy
+            if (!fillMatrix(int_matrix_a, rows_a, columns_a)) {
+                deleteMatrix(int_matrix_a, rows_a); //zabezpieczenie przed nieudanym wypelnianiu macierzy
                 return 0;
             }
         } else if (variable_type == 1) {
-            double_matrix_a = create_matrix_double(rows_a, columns_a); //-||- dla doubli
-            if (!fill_matrix(double_matrix_a, rows_a, columns_a)) {
-                delete_matrix(double_matrix_a, rows_a);
+            double_matrix_a = createMatrixDouble(rows_a, columns_a); //-||- dla doubli
+            if (!fillMatrix(double_matrix_a, rows_a, columns_a)) {
+                deleteMatrix(double_matrix_a, rows_a);
                 return 0;
             }
         } else {
@@ -63,30 +63,30 @@ int main(int argc, char *argv[]) {
                 cout << "Podaj liczbe wierszy i kolumn drugiej macierzy" << endl;
                 if (!(cin >> rows_b)) { //sprawdzenie czy do rows_b nie zostal wpisany znak, jesli tak, program konczy dzialanie
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_a, rows_a);
                     return 0;
                 }
 
                 if (!(cin >> columns_b)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_a, rows_a);
                     return 0;
                 }
 
-                int_matrix_b = create_matrix_int(rows_b, columns_b);
-                if (!fill_matrix(int_matrix_b, rows_b, columns_b)) {
-                    delete_matrix(int_matrix_a, rows_a);
-                    delete_matrix(int_matrix_b, rows_b);
+                int_matrix_b = createMatrixInt(rows_b, columns_b);
+                if (!fillMatrix(int_matrix_b, rows_b, columns_b)) {
+                    deleteMatrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_b, rows_b);
                     return 0;
                 }
 
                 result_matrix = addMatrix(int_matrix_a, int_matrix_b, rows_a, columns_a); //wywolanie funkcji oraz przekazanie wyniku do result_matrix
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_a);
+                printMatrix(result_matrix, rows_a, columns_a);
 
-                delete_matrix(int_matrix_b, rows_b);
-                delete_matrix(result_matrix, rows_b);
+                deleteMatrix(int_matrix_b, rows_b);
+                deleteMatrix(result_matrix, rows_b);
             } else if (variable_type == 1) {
                 int rows_b = 1, columns_b = 1;
 
@@ -95,30 +95,30 @@ int main(int argc, char *argv[]) {
                 cout << "Podaj liczbe wierszy i kolumn drugiej macierzy" << endl;
                 if (!(cin >> rows_b)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(double_matrix_a, rows_a);
+                    deleteMatrix(double_matrix_a, rows_a);
                     return 0;
                 }
 
                 if (!(cin >> columns_b)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(double_matrix_a, rows_a);
+                    deleteMatrix(double_matrix_a, rows_a);
                     return 0;
                 }
 
-                double_matrix_b = create_matrix_double(rows_b, columns_b);
-                if (!fill_matrix(double_matrix_b, rows_b, columns_b)) {
-                    delete_matrix(double_matrix_a, rows_a);
-                    delete_matrix(double_matrix_b, rows_b);
+                double_matrix_b = createMatrixDouble(rows_b, columns_b);
+                if (!fillMatrix(double_matrix_b, rows_b, columns_b)) {
+                    deleteMatrix(double_matrix_a, rows_a);
+                    deleteMatrix(double_matrix_b, rows_b);
                     return 0;
                 }
 
                 result_matrix = addMatrix(double_matrix_a, double_matrix_b, rows_a, columns_a);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_a);
+                printMatrix(result_matrix, rows_a, columns_a);
 
-                delete_matrix(double_matrix_b, rows_b);
-                delete_matrix(result_matrix, rows_b);
+                deleteMatrix(double_matrix_b, rows_b);
+                deleteMatrix(result_matrix, rows_b);
             }
         } else if (operation == "subtractMatrix") {
             if (variable_type == 0) {
@@ -129,30 +129,30 @@ int main(int argc, char *argv[]) {
                 cout << "Podaj liczbe wierszy i kolumn drugiej macierzy" << endl;
                 if (!(cin >> rows_b)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_a, rows_a);
                     return 0;
                 }
 
                 if (!(cin >> columns_b)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_a, rows_a);
                     return 0;
                 }
 
-                int_matrix_b = create_matrix_int(rows_b, columns_b);
-                if (!fill_matrix(int_matrix_b, rows_b, columns_b)) {
-                    delete_matrix(int_matrix_a, rows_a);
-                    delete_matrix(int_matrix_b, rows_b);
+                int_matrix_b = createMatrixInt(rows_b, columns_b);
+                if (!fillMatrix(int_matrix_b, rows_b, columns_b)) {
+                    deleteMatrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_b, rows_b);
                     return 0;
                 }
 
                 result_matrix = subtractMatrix(int_matrix_a, int_matrix_b, rows_a, columns_a);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_a);
+                printMatrix(result_matrix, rows_a, columns_a);
 
-                delete_matrix(int_matrix_b, rows_b);
-                delete_matrix(result_matrix, rows_b);
+                deleteMatrix(int_matrix_b, rows_b);
+                deleteMatrix(result_matrix, rows_b);
             } else if (variable_type == 1) {
                 int rows_b = 1, columns_b = 1;
 
@@ -161,30 +161,30 @@ int main(int argc, char *argv[]) {
                 cout << "Podaj liczbe wierszy i kolumn drugiej macierzy" << endl;
                 if (!(cin >> rows_b)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(double_matrix_a, rows_a);
+                    deleteMatrix(double_matrix_a, rows_a);
                     return 0;
                 }
 
                 if (!(cin >> columns_b)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(double_matrix_a, rows_a);
+                    deleteMatrix(double_matrix_a, rows_a);
                     return 0;
                 }
 
-                double_matrix_b = create_matrix_double(rows_b, columns_b);
-                if (!fill_matrix(double_matrix_b, rows_b, columns_b)) {
-                    delete_matrix(double_matrix_a, rows_a);
-                    delete_matrix(double_matrix_b, rows_b);
+                double_matrix_b = createMatrixDouble(rows_b, columns_b);
+                if (!fillMatrix(double_matrix_b, rows_b, columns_b)) {
+                    deleteMatrix(double_matrix_a, rows_a);
+                    deleteMatrix(double_matrix_b, rows_b);
                     return 0;
                 }
 
                 result_matrix = subtractMatrix(double_matrix_a, double_matrix_b, rows_a, columns_a);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_a);
+                printMatrix(result_matrix, rows_a, columns_a);
 
-                delete_matrix(double_matrix_b, rows_b);
-                delete_matrix(result_matrix, rows_b);
+                deleteMatrix(double_matrix_b, rows_b);
+                deleteMatrix(result_matrix, rows_b);
             }
         } else if (operation == "multiplyMatrix") {
             if (variable_type == 0) {
@@ -195,30 +195,30 @@ int main(int argc, char *argv[]) {
                 cout << "Podaj liczbe wierszy i kolumn drugiej macierzy" << endl;
                 if (!(cin >> rows_b)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_a, rows_a);
                     return 0;
                 }
 
                 if (!(cin >> columns_b)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_a, rows_a);
                     return 0;
                 }
 
-                int_matrix_b = create_matrix_int(rows_b, columns_b);
-                if (!fill_matrix(int_matrix_b, rows_b, columns_b)) {
-                    delete_matrix(int_matrix_a, rows_a);
-                    delete_matrix(int_matrix_b, rows_b);
+                int_matrix_b = createMatrixInt(rows_b, columns_b);
+                if (!fillMatrix(int_matrix_b, rows_b, columns_b)) {
+                    deleteMatrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_b, rows_b);
                     return 0;
                 }
 
                 result_matrix = multiplyMatrix(int_matrix_a, int_matrix_b, rows_a, columns_a, columns_b);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_b);
+                printMatrix(result_matrix, rows_a, columns_b);
 
-                delete_matrix(int_matrix_b, rows_b);
-                delete_matrix(result_matrix, rows_b);
+                deleteMatrix(int_matrix_b, rows_b);
+                deleteMatrix(result_matrix, rows_b);
             } else if (variable_type == 1) {
                 int rows_b = 1, columns_b = 1;
 
@@ -227,30 +227,30 @@ int main(int argc, char *argv[]) {
                 cout << "Podaj liczbe wierszy i kolumn drugiej macierzy" << endl;
                 if (!(cin >> rows_b)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(double_matrix_a, rows_a);
+                    deleteMatrix(double_matrix_a, rows_a);
                     return 0;
                 }
 
                 if (!(cin >> columns_b)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(double_matrix_a, rows_a);
+                    deleteMatrix(double_matrix_a, rows_a);
                     return 0;
                 }
 
-                double_matrix_b = create_matrix_double(rows_b, columns_b);
-                if (!fill_matrix(double_matrix_b, rows_b, columns_b)) {
-                    delete_matrix(double_matrix_a, rows_a);
-                    delete_matrix(double_matrix_b, rows_b);
+                double_matrix_b = createMatrixDouble(rows_b, columns_b);
+                if (!fillMatrix(double_matrix_b, rows_b, columns_b)) {
+                    deleteMatrix(double_matrix_a, rows_a);
+                    deleteMatrix(double_matrix_b, rows_b);
                     return 0;
                 }
 
                 result_matrix = multiplyMatrix(double_matrix_a, double_matrix_b, rows_a, columns_a, columns_b);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_b);
+                printMatrix(result_matrix, rows_a, columns_b);
 
-                delete_matrix(double_matrix_b, rows_b);
-                delete_matrix(result_matrix, rows_b);
+                deleteMatrix(double_matrix_b, rows_b);
+                deleteMatrix(result_matrix, rows_b);
             }
         } else if (operation == "multiplyByScalar") {
             if (variable_type == 0) {
@@ -261,16 +261,16 @@ int main(int argc, char *argv[]) {
                 cout << "Podaj skalar" << endl;
                 if (!(cin >> scalar)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_a, rows_a);
                     return 0;
                 }
 
                 result_matrix = multiplyByScalar(int_matrix_a, rows_a, columns_a, scalar);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_a);
+                printMatrix(result_matrix, rows_a, columns_a);
 
-                delete_matrix(result_matrix, rows_a);
+                deleteMatrix(result_matrix, rows_a);
             } else if (variable_type == 1) {
                 double scalar;
 
@@ -279,16 +279,16 @@ int main(int argc, char *argv[]) {
                 cout << "Podaj skalar" << endl;
                 if (!(cin >> scalar)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(double_matrix_a, rows_a);
+                    deleteMatrix(double_matrix_a, rows_a);
                     return 0;
                 }
 
                 result_matrix = multiplyByScalar(double_matrix_a, rows_a, columns_a, scalar);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_a);
+                printMatrix(result_matrix, rows_a, columns_a);
 
-                delete_matrix(result_matrix, rows_a);
+                deleteMatrix(result_matrix, rows_a);
             }
         } else if (operation == "transpozeMatrix") {
             if (variable_type == 0) {
@@ -297,18 +297,18 @@ int main(int argc, char *argv[]) {
                 result_matrix = transpozeMatrix(int_matrix_a, rows_a, columns_a);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, columns_a, rows_a);
+                printMatrix(result_matrix, columns_a, rows_a);
 
-                delete_matrix(result_matrix, columns_a);
+                deleteMatrix(result_matrix, columns_a);
             } else if (variable_type == 1) {
                 double **result_matrix = nullptr;
 
                 result_matrix = transpozeMatrix(double_matrix_a, rows_a, columns_a);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, columns_a, rows_a);
+                printMatrix(result_matrix, columns_a, rows_a);
 
-                delete_matrix(result_matrix, columns_a);
+                deleteMatrix(result_matrix, columns_a);
             }
         } else if (operation == "powerMatrix") {
             if (variable_type == 0) {
@@ -319,16 +319,16 @@ int main(int argc, char *argv[]) {
                 cout << "Podaj potege" << endl;
                 if (!(cin >> power)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_a, rows_a);
                     return 0;
                 }
 
                 result_matrix = powerMatrix(int_matrix_a, rows_a, columns_a, power);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_a);
+                printMatrix(result_matrix, rows_a, columns_a);
 
-                delete_matrix(result_matrix, rows_a);
+                deleteMatrix(result_matrix, rows_a);
             } else if (variable_type == 1) {
                 double power;
 
@@ -337,7 +337,7 @@ int main(int argc, char *argv[]) {
                 cout << "Podaj potege" << endl;
                 if (!(cin >> power)) {
                     cout << "Wprowadzono nieprawidlowy znak" << endl;
-                    delete_matrix(int_matrix_a, rows_a);
+                    deleteMatrix(int_matrix_a, rows_a);
                     return 0;
                 }
 
@@ -345,9 +345,9 @@ int main(int argc, char *argv[]) {
                 result_matrix = powerMatrix(double_matrix_a, rows_a, columns_a, power);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(result_matrix, rows_a, columns_a);
+                printMatrix(result_matrix, rows_a, columns_a);
 
-                delete_matrix(result_matrix, rows_a);
+                deleteMatrix(result_matrix, rows_a);
             }
         } else if (operation == "determinantMatrix") {
             if (variable_type == 0) {
@@ -390,21 +390,21 @@ int main(int argc, char *argv[]) {
                 sortRowsInMatrix(int_matrix_a, rows_a, columns_a);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(int_matrix_a, rows_a, columns_a);
+                printMatrix(int_matrix_a, rows_a, columns_a);
             } else if (variable_type == 1) {
                 sortRowsInMatrix(double_matrix_a, rows_a, columns_a);
 
                 cout << "Wynik to:" << endl;
-                print_matrix(double_matrix_a, rows_a, columns_a);
+                printMatrix(double_matrix_a, rows_a, columns_a);
             }
         } else {
             cout << "error" << endl;
         }
 
         if (variable_type == 0)
-            delete_matrix(int_matrix_a, rows_a);
+            deleteMatrix(int_matrix_a, rows_a);
         else if (variable_type == 1)
-            delete_matrix(double_matrix_a, rows_a);
+            deleteMatrix(double_matrix_a, rows_a);
 
     } else {
         cout << "! Nieznana komenda !" << endl;

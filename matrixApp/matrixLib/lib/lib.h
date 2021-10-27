@@ -6,13 +6,13 @@
 
 void help();
 
-bool check_command(std::string command);
+bool checkCommand(std::string command);
 
-int **create_matrix_int(int rows, int columns);
+int **createMatrixInt(int rows, int columns);
 
-bool fill_matrix(int **matrix, int rows, int columns);
+bool fillMatrix(int **matrix, int rows, int columns);
 
-void print_matrix(int **matrix, int rows, int columns);
+void printMatrix(int **matrix, int rows, int columns);
 
 int **addMatrix(int **matrix_a, int **matrix_b, int rows_a, int columns_a);
 
@@ -38,15 +38,15 @@ void sortRow(int *row, int columns);
 
 void sortRowsInMatrix(int **matrix, int rows, int columns);
 
-void delete_matrix(int **matrix, int rows);
+void deleteMatrix(int **matrix, int rows);
 
 //double
 
-double **create_matrix_double(int rows, int columns);
+double **createMatrixDouble(int rows, int columns);
 
-bool fill_matrix(double **matrix, int rows, int columns);
+bool fillMatrix(double **matrix, int rows, int columns);
 
-void print_matrix(double **matrix, int rows, int columns);
+void printMatrix(double **matrix, int rows, int columns);
 
 double **addMatrix(double **matrix_a, double **matrix_b, int rows_a, int columns_a);
 
@@ -72,5 +72,5 @@ void sortRow(double *row, int columns);
 
 void sortRowsInMatrix(double **matrix, int rows, int columns);
 
-void delete_matrix(double **matrix, int rows);
+void deleteMatrix(double **matrix, int rows);
 #endif //JIPP2_LIB_H

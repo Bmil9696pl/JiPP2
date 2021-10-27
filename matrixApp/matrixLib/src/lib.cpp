@@ -17,7 +17,7 @@ void help(){
     cout << "sortRowsInMatrix - sortuje wiersze w macierzy w kolejnosci rosnacej" << endl;
 }
 
-bool check_command(string command) {
+bool checkCommand(string command) {
     string command_list[9] = {"addMatrix", "subtractMatrix", "multiplyMatrix", "multiplyByScalar",
                               "transpozeMatrix", "powerMatrix", "determinantMatrix",
                               "matrixIsDiagonal", "sortRowsInMatrix"};
@@ -32,7 +32,7 @@ bool check_command(string command) {
 
 //int
 
-int **create_matrix_int(int rows, int columns) { //tworzenie macierzy, najpierw wiersze, potem kolumny, a na koncu wypelniane sa zerami
+int **createMatrixInt(int rows, int columns) { //tworzenie macierzy, najpierw wiersze, potem kolumny, a na koncu wypelniane sa zerami
     int **tmp_matrix = new int *[rows];
 
     for (int i = 0; i < rows; i++) {
@@ -46,7 +46,7 @@ int **create_matrix_int(int rows, int columns) { //tworzenie macierzy, najpierw 
     return tmp_matrix;
 }
 
-bool fill_matrix(int **matrix, int rows, int columns) { //wypelniane macierzy wartosciami, program przebiega wzdluz wierszy
+bool fillMatrix(int **matrix, int rows, int columns) { //wypelniane macierzy wartosciami, program przebiega wzdluz wierszy
 
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {
@@ -61,7 +61,7 @@ bool fill_matrix(int **matrix, int rows, int columns) { //wypelniane macierzy wa
     return true;
 }
 
-void print_matrix(int **matrix, int rows, int columns) { //wypisanie macierzy, program przebiega wzdloz wierszy
+void printMatrix(int **matrix, int rows, int columns) { //wypisanie macierzy, program przebiega wzdloz wierszy
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {
             cout << " " << matrix[i][j] << " ";
@@ -74,7 +74,7 @@ void print_matrix(int **matrix, int rows, int columns) { //wypisanie macierzy, p
 int **addMatrix(int **matrix_a, int **matrix_b, int rows_a, int columns_a) { //dodawanie dwóch macierzy
     int **result_matrix = nullptr;
 
-    result_matrix = create_matrix_int(rows_a, columns_a);
+    result_matrix = createMatrixInt(rows_a, columns_a);
 
     for (int i = 0; i < rows_a; ++i) {
         for (int j = 0; j < columns_a; ++j) {
@@ -88,7 +88,7 @@ int **addMatrix(int **matrix_a, int **matrix_b, int rows_a, int columns_a) { //d
 int **subtractMatrix(int **matrix_a, int **matrix_b, int rows_a, int columns_a) { //odejmowanie dwóch macierzy
     int **result_matrix = nullptr;
 
-    result_matrix = create_matrix_int(rows_a, columns_a);
+    result_matrix = createMatrixInt(rows_a, columns_a);
 
     for (int i = 0; i < rows_a; ++i) {
         for (int j = 0; j < columns_a; ++j) {
@@ -102,7 +102,7 @@ int **subtractMatrix(int **matrix_a, int **matrix_b, int rows_a, int columns_a) 
 int **multiplyMatrix(int **matrix_a, int **matrix_b, int rows_a, int columns_a, int columns_b) { //mnozenie dwoch macierzy
     int **result_matrix = nullptr;
 
-    result_matrix = create_matrix_int(rows_a, columns_b);
+    result_matrix = createMatrixInt(rows_a, columns_b);
 
     for (int i = 0; i < rows_a; ++i) { //[i] - wiersze w macierzy wynikowej i macierzy a
         for (int j = 0; j < columns_b; ++j) { //[j] - kolumny w macierzy wynikowej i macierzy b
@@ -118,7 +118,7 @@ int **multiplyMatrix(int **matrix_a, int **matrix_b, int rows_a, int columns_a, 
 int **multiplyByScalar(int **matrix_a, int rows_a, int columns_a, int scalar) { //mnozenie kazdej wartosci w macierzy przez jakas stala
     int **result_matrix = nullptr;
 
-    result_matrix = create_matrix_int(rows_a, columns_a);
+    result_matrix = createMatrixInt(rows_a, columns_a);
 
     for (int i = 0; i < rows_a; ++i) {
         for (int j = 0; j < columns_a; ++j) {
@@ -132,7 +132,7 @@ int **multiplyByScalar(int **matrix_a, int rows_a, int columns_a, int scalar) { 
 int **transpozeMatrix(int **matrix, int rows, int columns) { //transponowanie macierzy
     int **result_matrix = nullptr;
 
-    result_matrix = create_matrix_int(columns, rows); //tworzenie macierzy z zamienionymi wielkosciami
+    result_matrix = createMatrixInt(columns, rows); //tworzenie macierzy z zamienionymi wielkosciami
 
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {
@@ -143,8 +143,8 @@ int **transpozeMatrix(int **matrix, int rows, int columns) { //transponowanie ma
     return result_matrix;
 }
 
-int **powerMatrix(int **matrix, int rows, int columns, int m_power) {
-    if(m_power == 1){
+int **powerMatrix(int **matrix, int rows, int columns, int m_power) { //funkcja poteguje macierz, wykorzystujac rekursje oraz wczesniejsza
+    if(m_power == 1){                                                 //funkcje do mnozenia dwoch maierzy
         return matrix;
     }
     else if(m_power == 0){
@@ -168,7 +168,7 @@ int **submatrix(int **matrix, int row_index, int column_index, int matrix_size) 
                                                                                   //funkcja przyjmuje jako parametry wiersz i kolumny do wykreslenia
     int **result_matrix = nullptr;                                                //oraz rozmiar podmacierzy
 
-    result_matrix = create_matrix_int(matrix_size, matrix_size);
+    result_matrix = createMatrixInt(matrix_size, matrix_size);
 
     for (int r = 0; r < matrix_size; ++r) {
         for (int c = 0; c < matrix_size; ++c) {
@@ -240,7 +240,7 @@ void sortRowsInMatrix(int **matrix, int rows, int columns) {    //funkcja wywolu
     }
 }
 
-void delete_matrix(int **matrix, int rows) { //macierz jest tak na prawde tablica tablic, funkcja najpierw wchodzi do tablicy tablic, usuwa
+void deleteMatrix(int **matrix, int rows) { //macierz jest tak na prawde tablica tablic, funkcja najpierw wchodzi do tablicy tablic, usuwa
     for (int i = 0; i < rows; ++i) {         //znajdujace sie w niej tablice a ostatecznie usuwa najbardziej zewnetrzna tablice
         delete[] matrix[i];                  //czyli wykonuje swoj proces odwrotnie to funkcji create matrix
     }
@@ -249,7 +249,7 @@ void delete_matrix(int **matrix, int rows) { //macierz jest tak na prawde tablic
 
 //double
 
-double **create_matrix_double(int rows, int columns) {
+double **createMatrixDouble(int rows, int columns) {
     double **tmp_matrix = new double *[columns];
 
     for (int i = 0; i < rows; i++) {
@@ -262,7 +262,7 @@ double **create_matrix_double(int rows, int columns) {
     return tmp_matrix;
 }
 
-bool fill_matrix(double **matrix, int rows, int columns) {
+bool fillMatrix(double **matrix, int rows, int columns) {
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {
             cout << "Liczba do komorki " << i + 1 << " " << j + 1 << endl;
@@ -276,7 +276,7 @@ bool fill_matrix(double **matrix, int rows, int columns) {
     return true;
 }
 
-void print_matrix(double **matrix, int rows, int columns) {
+void printMatrix(double **matrix, int rows, int columns) {
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {
             cout << " " << matrix[i][j] << " ";
@@ -289,7 +289,7 @@ void print_matrix(double **matrix, int rows, int columns) {
 double **addMatrix(double **matrix_a, double **matrix_b, int rows_a, int columns_a) {
     double **result_matrix = nullptr;
 
-    result_matrix = create_matrix_double(rows_a, columns_a);
+    result_matrix = createMatrixDouble(rows_a, columns_a);
 
     for (int i = 0; i < rows_a; ++i) {
         for (int j = 0; j < columns_a; ++j) {
@@ -303,7 +303,7 @@ double **addMatrix(double **matrix_a, double **matrix_b, int rows_a, int columns
 double **subtractMatrix(double **matrix_a, double **matrix_b, int rows_a, int columns_a) {
     double **result_matrix = nullptr;
 
-    result_matrix = create_matrix_double(rows_a, columns_a);
+    result_matrix = createMatrixDouble(rows_a, columns_a);
 
     for (int i = 0; i < rows_a; ++i) {
         for (int j = 0; j < columns_a; ++j) {
@@ -317,7 +317,7 @@ double **subtractMatrix(double **matrix_a, double **matrix_b, int rows_a, int co
 double **multiplyMatrix(double **matrix_a, double **matrix_b, int rows_a, int columns_a, int columns_b) {
     double **result_matrix = nullptr;
 
-    result_matrix = create_matrix_double(rows_a, columns_b);
+    result_matrix = createMatrixDouble(rows_a, columns_b);
 
     for (int i = 0; i < rows_a; ++i) {
         for (int j = 0; j < columns_b; ++j) {
@@ -334,7 +334,7 @@ double **multiplyMatrix(double **matrix_a, double **matrix_b, int rows_a, int co
 double **multiplyByScalar(double **matrix, int rows, int columns, double scalar) {
     double **result_matrix = nullptr;
 
-    result_matrix = create_matrix_double(rows, columns);
+    result_matrix = createMatrixDouble(rows, columns);
 
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {
@@ -348,7 +348,7 @@ double **multiplyByScalar(double **matrix, int rows, int columns, double scalar)
 double **transpozeMatrix(double **matrix, int rows, int columns) {
     double **result_matrix = nullptr;
 
-    result_matrix = create_matrix_double(columns, rows);
+    result_matrix = createMatrixDouble(columns, rows);
 
     for (int i = 0; i < rows; ++i) {
         for (int j = 0; j < columns; ++j) {
@@ -384,7 +384,7 @@ double **submatrix(double **matrix, int row_index, int column_index, int matrix_
 
     double **result_matrix = nullptr;
 
-    result_matrix = create_matrix_double(matrix_size, matrix_size);
+    result_matrix = createMatrixDouble(matrix_size, matrix_size);
 
     for (int r = 0; r < matrix_size; ++r) {
         for (int c = 0; c < matrix_size; ++c) {
@@ -456,7 +456,7 @@ void sortRowsInMatrix(double **matrix, int rows, int columns) {
     }
 }
 
-void delete_matrix(double **matrix, int rows) {
+void deleteMatrix(double **matrix, int rows) {
     for (int i = 0; i < rows; ++i) {
         delete[] matrix[i];
     }
