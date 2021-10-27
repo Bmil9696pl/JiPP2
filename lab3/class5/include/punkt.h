@@ -17,7 +17,7 @@ class Punkt{
     double oblicz();
 
 public:
-    Punkt::Punkt();
+    Punkt();
 };
 
 class Figura{
@@ -25,7 +25,7 @@ public:
     int n_wierzch;
     punkt* punkty;
 
-    Figura::Figura(int n);
+    Figura(int n);
 };
 
 #endif //JIPP2_PROSTOPADLOSCIAN_H
