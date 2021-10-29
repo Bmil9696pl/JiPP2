@@ -407,7 +407,6 @@ int main(int argc, char *argv[]) {
             deleteMatrix(double_matrix_a, rows_a);
 
     } else {
-        cout << "! Nieznana komenda !" << endl;
         help();
         return 0;
     }

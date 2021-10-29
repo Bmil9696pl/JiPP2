@@ -22,6 +22,7 @@ bool checkCommand(string command) {
                               "transpozeMatrix", "powerMatrix", "determinantMatrix",
                               "matrixIsDiagonal", "sortRowsInMatrix"};
 
+
     for (int i = 0; i < 9; ++i) {
         if (command == command_list[i])
             return true;
