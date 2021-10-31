@@ -437,6 +437,12 @@ bool matrixIsDiagonal(double **matrix, int rows, int columns) {
     return true;
 }
 
+void swap(double *a, double *b) {
+    int tmp = *a;
+    *a = *b;
+    *b = tmp;
+}
+
 void sortRow(double *row, int columns) {
     int i, j;
     for (i = 0; i < columns - 1; i++)
