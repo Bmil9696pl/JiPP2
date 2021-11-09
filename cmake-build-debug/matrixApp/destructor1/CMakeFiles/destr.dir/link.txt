@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/destr.dir/src/main.cpp.o CMakeFiles/destr.dir/src/destruct.cpp.o -o destr.exe -Wl,--out-implib,libdestr.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
