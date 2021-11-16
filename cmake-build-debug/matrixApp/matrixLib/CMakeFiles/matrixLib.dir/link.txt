@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libmatrixLib.a CMakeFiles/matrixLib.dir/src/lib.cpp.o
+/usr/bin/ranlib.exe libmatrixLib.a

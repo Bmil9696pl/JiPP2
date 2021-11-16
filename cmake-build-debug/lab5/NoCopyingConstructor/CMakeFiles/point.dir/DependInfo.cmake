@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab5/NoCopyingConstructor/src/Point.cpp" "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab5/NoCopyingConstructor/CMakeFiles/point.dir/src/Point.cpp.obj"
-  "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab5/NoCopyingConstructor/src/main.cpp" "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab5/NoCopyingConstructor/CMakeFiles/point.dir/src/main.cpp.obj"
+  "/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab5/NoCopyingConstructor/src/Point.cpp" "/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab5/NoCopyingConstructor/CMakeFiles/point.dir/src/Point.cpp.o"
+  "/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab5/NoCopyingConstructor/src/main.cpp" "/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab5/NoCopyingConstructor/CMakeFiles/point.dir/src/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

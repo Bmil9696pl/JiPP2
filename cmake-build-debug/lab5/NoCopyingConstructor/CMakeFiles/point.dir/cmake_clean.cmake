@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/point.dir/src/Point.cpp.obj"
-  "CMakeFiles/point.dir/src/main.cpp.obj"
+  "CMakeFiles/point.dir/src/Point.cpp.o"
+  "CMakeFiles/point.dir/src/main.cpp.o"
+  "libpoint.dll.a"
   "point.exe"
-  "point.exe.manifest"
-  "point.lib"
   "point.pdb"
 )
 

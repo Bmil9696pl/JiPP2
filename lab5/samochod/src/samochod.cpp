@@ -1,10 +1,14 @@
 #include "../include/samochod.h"
 
+string Pojazd::newest_software = "v2.0";
+
+
 Pojazd::Pojazd(int nrej, string name, int room, string type) :
 nrej(nrej),
 name(name),
 room(room),
-type(type)
+type(type),
+software("v1.0")
 {
     passangers = new string[room];
     for(int i = 0; i < room; i++){
@@ -41,25 +45,37 @@ void Pojazd::changePass(int nr, string passanger) {
 }
 
 void Pojazd::nrejSet(int n){
-
+    nrej = n;
 }
 
 int Pojazd::nrejGet(){
-
+    return nrej;
 }
 
 void Pojazd::nameSet(string n){
-
+    name = n;
 }
 
 string Pojazd::nameGet(){
-
+    return name;
 }
 
 void Pojazd::typeSet(string n){
-
+    type = n;
 }
 
 string Pojazd::typeGet(){
+    return type;
+}
 
+void Pojazd::softwarePrint() {
+    cout << software << endl;
+}
+
+void Pojazd::softwareUpdate() {
+    software = newest_software;
+}
+
+void Pojazd::releaseNewUpdate(string a) {
+    newest_software = a;
 }

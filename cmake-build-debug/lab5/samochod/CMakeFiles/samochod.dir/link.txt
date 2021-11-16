@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g -Wl,--enable-auto-import CMakeFiles/samochod.dir/src/main.cpp.o CMakeFiles/samochod.dir/src/samochod.cpp.o -o samochod.exe -Wl,--out-implib,libsamochod.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

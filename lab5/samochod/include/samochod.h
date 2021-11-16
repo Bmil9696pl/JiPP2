@@ -12,6 +12,8 @@ class Pojazd{
     int room;
     string* passangers;
     string type;
+    static string newest_software;
+    string software;
 
 public:
 
@@ -34,6 +36,14 @@ public:
     void typeSet(string n);
 
     string typeGet();
+
+    void softwarePrint();
+
+    void softwareUpdate();
+
+    void releaseNewUpdate(string a);
 };
+
+
 
 #endif //SAMOCHOD_H

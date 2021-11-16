@@ -1,7 +1,10 @@
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab5/CMakeFiles/edit_cache.dir
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab5/CMakeFiles/rebuild_cache.dir
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab5/samochod/CMakeFiles/point.dir
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab5/samochod/CMakeFiles/edit_cache.dir
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab5/samochod/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/CMakeFiles/matrixApp.dir
+/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/CMakeFiles/matrixLib.dir
