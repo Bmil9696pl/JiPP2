@@ -4,124 +4,128 @@
 	<Project>
 		<Option title="matrixApp"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\matrixApp\;CMake Files\matrixApp\App\;CMake Files\matrixApp\matrixLib\;"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\matrixApp\;CMake Files\matrixApp\app\;CMake Files\matrixApp\matrixLib\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp"/>
+				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="matrixApp">
-				<Option output="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/matrixApp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App"/>
+				<Option output="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/app/matrixApp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/app"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/App/../matrixLib/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/app/../matrixLib/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/Makefile&quot;  VERBOSE=1 matrixApp"/>
-					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\app\Makefile VERBOSE=1 matrixApp"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\app\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\app\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\app\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="matrixApp/fast">
-				<Option output="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/matrixApp.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App"/>
+				<Option output="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/app/matrixApp.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/app"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/App/../matrixLib/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/app/../matrixLib/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/Makefile&quot;  VERBOSE=1 matrixApp/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/App/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\app\Makefile VERBOSE=1 matrixApp/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\app\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\app\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\app\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="matrixLib">
-				<Option output="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/libmatrixLib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib"/>
+				<Option output="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/matrixLib.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/Makefile&quot;  VERBOSE=1 matrixLib"/>
-					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\matrixLib\Makefile VERBOSE=1 matrixLib"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\matrixLib\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\matrixLib\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\matrixLib\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="matrixLib/fast">
-				<Option output="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/libmatrixLib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib"/>
+				<Option output="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/matrixLib.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+					<Add directory="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/Makefile&quot;  VERBOSE=1 matrixLib/fast"/>
-					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\matrixLib\Makefile VERBOSE=1 matrixLib/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\matrixLib\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\matrixLib\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\matrixApp\matrixLib\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/App/main.cpp">
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/app/main.cpp">
 			<Option target="matrixApp"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/src/lib.cpp">
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/src/lib.cpp">
 			<Option target="matrixLib"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/CMakeLists.txt">
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/CMakeLists.txt">
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\matrixApp\"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/App/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\matrixApp\App\"/>
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/app/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\matrixApp\app\"/>
 		</Unit>
-		<Unit filename="/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/CMakeLists.txt">
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\matrixApp\matrixLib\"/>
 		</Unit>
 	</Project>

@@ -1,8 +1,8 @@
-# Install script for directory: /cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki
+# Install script for directory: C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/JIPP2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,14 +32,9 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-# Set default install directory permissions.
-if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump.exe")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp/cmake_install.cmake")
+  include("C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab6/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
