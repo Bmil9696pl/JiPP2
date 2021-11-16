@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lab3/class1/include/prostopadloscian.h
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class1/src/main.cpp
+iostream
+-
+../include/prostopadloscian.h
+-
+

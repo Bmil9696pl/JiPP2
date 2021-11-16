@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lab3/class2/include/kula.h
+cmath
+-
+iostream
+-
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class2/include/kula.h
+cmath
+-
+iostream
+-
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class2/src/kula.cpp
+../include/kula.h
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class2/include/kula.h
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class2/src/main.cpp
+../include/kula.h
+-
+iostream
+-
+

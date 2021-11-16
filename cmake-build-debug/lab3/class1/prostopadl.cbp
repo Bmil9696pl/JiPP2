@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="prostopadl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lab3\;CMake Files\lab3\class1\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab3/class1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prostopadl">
+				<Option output="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab3/class1/prostopadl.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab3/class1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class1/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 prostopadl"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prostopadl/fast">
+				<Option output="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab3/class1/prostopadl.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab3/class1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class1/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 prostopadl/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab3\class1\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class1/src/main.cpp">
+			<Option target="prostopadl"/>
+		</Unit>
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class1/src/prostopadloscian.cpp">
+			<Option target="prostopadl"/>
+		</Unit>
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab3\"/>
+		</Unit>
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab3\class1\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

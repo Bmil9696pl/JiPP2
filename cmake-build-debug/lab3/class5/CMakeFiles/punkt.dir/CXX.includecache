@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class5/include/punkt.h
+string
+-
+cmath
+-
+iostream
+-
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class5/src/punkt.cpp
+../include/punkt.h
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class5/include/punkt.h
+

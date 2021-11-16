@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/simpleCalculator/CMakeFiles/simpleCalculator.dir/embed.manifest"

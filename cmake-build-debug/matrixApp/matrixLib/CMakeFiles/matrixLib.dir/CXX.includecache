@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/lib/lib.h
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/src/lib.cpp
+../lib/lib.h
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/lib/lib.h
+iostream
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/src/iostream
+

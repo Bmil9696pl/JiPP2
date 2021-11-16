@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lab3/class4/include/student.h
+string
+-
+cmath
+-
+iostream
+-
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class4/include/student.h
+string
+-
+cmath
+-
+iostream
+-
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class4/src/main.cpp
+../include/student.h
+-
+iostream
+-
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class4/src/student.cpp
+../include/student.h
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab3/class4/include/student.h
+
