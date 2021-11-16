@@ -61,5 +61,5 @@ void Pojazd::typeSet(string n){
 }
 
 string Pojazd::typeGet(){
-    
+
 }
