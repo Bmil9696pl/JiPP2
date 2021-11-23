@@ -214,6 +214,12 @@ JIPP2_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/c
 JIPP2_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki
 
 //Value Computed by CMake
+figura_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab7/figura
+
+//Value Computed by CMake
+figura_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab7/figura
+
+//Value Computed by CMake
 matrixApp_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp
 
 //Value Computed by CMake
@@ -328,7 +334,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

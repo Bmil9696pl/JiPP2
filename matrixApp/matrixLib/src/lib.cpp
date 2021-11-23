@@ -17,7 +17,7 @@ void help(){
     cout << "sortRowsInMatrix - sortuje wiersze w macierzy w kolejnosci rosnacej" << endl;
 }
 
-bool checkCommand(string command) {
+bool checkCommand(string command) { //sprawdza czy wprowadzona zostala poprawna komenda
     string command_list[9] = {"addMatrix", "subtractMatrix", "multiplyMatrix", "multiplyByScalar",
                               "transpozeMatrix", "powerMatrix", "determinantMatrix",
                               "matrixIsDiagonal", "sortRowsInMatrix"};

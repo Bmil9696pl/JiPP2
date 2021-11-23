@@ -32,8 +32,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
-  "../lab6/CMakeLists.txt"
-  "../lab6/vector/CMakeLists.txt"
+  "../matrixApp/CMakeLists.txt"
+  "../matrixApp/app/CMakeLists.txt"
+  "../matrixApp/matrixLib/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,11 +46,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lab6/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lab6/vector/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "matrixApp/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "matrixApp/app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "matrixApp/matrixLib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "lab6/vector/CMakeFiles/vector.dir/DependInfo.cmake"
+  "matrixApp/app/CMakeFiles/matrixApp.dir/DependInfo.cmake"
+  "matrixApp/matrixLib/CMakeFiles/matrixLib.dir/DependInfo.cmake"
   )
