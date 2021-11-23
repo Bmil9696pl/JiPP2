@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab7/figura/include/figura.h
+iostream
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab7/figura/include/iostream
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab7/figura/src/figura.cpp
+../include/figura.h
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab7/figura/include/figura.h
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab7/figura/src/main.cpp
+iostream
+-
+../include/figura.h
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab7/figura/include/figura.h
+

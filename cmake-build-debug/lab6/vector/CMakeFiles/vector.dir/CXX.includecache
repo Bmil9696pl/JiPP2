@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab6/vector/include/vector.h
+iostream
+-
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab6/vector/src/main.cpp
+iostream
+-
+../include/vector.h
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab6/vector/include/vector.h
+
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab6/vector/src/vector.cpp
+../include/vector.h
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab6/vector/include/vector.h
+
