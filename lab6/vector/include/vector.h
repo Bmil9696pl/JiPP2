@@ -2,7 +2,7 @@
 #define SAMOCHOD_H
 
 #include <iostream>
-
+#include "math.h"
 using namespace std;
 
 class Vector{
@@ -26,6 +26,8 @@ public:
 
     void print();
 
+    friend ostream &operator<<(ostream & lhs, const Vector &rhs);
+
     friend Vector operator*(const double &lhs, const Vector &rhs);
 
     /*
@@ -46,6 +48,7 @@ public:
 
     double operator*(const Vector &rhs);
 };
+ostream &operator<<(ostream & lhs, const Vector &rhs);
 
 Vector operator*(const double &lhs, const Vector &rhs);
 

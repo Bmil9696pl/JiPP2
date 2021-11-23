@@ -10,6 +10,7 @@ int main(){
     Vector yiyi = babus*2.0;
     yiyi.print();
     Vector solobolo = 2.0*babus;
+    cout << solobolo << endl;
     solobolo.print();
     return 0;
 }

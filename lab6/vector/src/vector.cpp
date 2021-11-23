@@ -69,6 +69,12 @@ double Vector::operator*(const Vector &rhs) {
     return x*rhs.x+y*rhs.y;
 }
 
+ostream &operator<<(ostream &lhs, const Vector &rhs){
+    return cout << rhs.x << " " << rhs.y;
+}
+
+
+/////////////////////////////////Imaginary//////////////////////////////////////////
 
 Imaginary::Imaginary(): x(0), i(0) {}
 
