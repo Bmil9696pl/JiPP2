@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/App/main.cpp
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/app/main.cpp
 iostream
 -
 string
 -
 ../matrixLib/lib/lib.h
-/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/lib/lib.h
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/lib/lib.h
 
-/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/lib/lib.h
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/lib/lib.h
 string
 -
 

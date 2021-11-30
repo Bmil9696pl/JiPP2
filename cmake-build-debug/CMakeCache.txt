@@ -226,16 +226,10 @@ matrixApp_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milec
 matrixApp_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp
 
 //Value Computed by CMake
-node_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab6/node
+notes_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab8/notes
 
 //Value Computed by CMake
-node_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab6/node
-
-//Value Computed by CMake
-vector_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab6/vector
-
-//Value Computed by CMake
-vector_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab6/vector
+notes_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab8/notes
 
 
 ########################

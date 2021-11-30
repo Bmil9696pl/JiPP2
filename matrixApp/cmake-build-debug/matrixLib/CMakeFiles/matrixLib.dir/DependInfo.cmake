@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/src/lib.cpp" "/cygdrive/c/Users/bartek-tominek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/cmake-build-debug/matrixLib/CMakeFiles/matrixLib.dir/src/lib.cpp.o"
+  "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/matrixLib/src/lib.cpp" "C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/matrixApp/cmake-build-debug/matrixLib/CMakeFiles/matrixLib.dir/src/lib.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
