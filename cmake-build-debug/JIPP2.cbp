@@ -5,7 +5,7 @@
 		<Option title="JIPP2"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lab9\;CMake Files\lab9\StopExample\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lab9\;CMake Files\lab9\odtwarzacz\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug"/>
@@ -37,13 +37,14 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="vectorExample">
-				<Option output="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/StopExample/vectorExample.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/StopExample"/>
+			<Target title="odtwarzacz">
+				<Option output="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/odtwarzacz/odtwarzacz.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/odtwarzacz"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/odtwarzacz/include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
@@ -53,19 +54,20 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\StopExample\Makefile VERBOSE=1 vectorExample"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\StopExample\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\StopExample\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\StopExample\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\odtwarzacz\Makefile VERBOSE=1 odtwarzacz"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\odtwarzacz\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\odtwarzacz\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\odtwarzacz\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="vectorExample/fast">
-				<Option output="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/StopExample/vectorExample.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/StopExample"/>
+			<Target title="odtwarzacz/fast">
+				<Option output="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/odtwarzacz/odtwarzacz.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/odtwarzacz"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
+					<Add directory="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/odtwarzacz/include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
@@ -75,27 +77,18 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\StopExample\Makefile VERBOSE=1 vectorExample/fast"/>
-					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\StopExample\Makefile VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\StopExample\Makefile VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\StopExample\Makefile VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\odtwarzacz\Makefile VERBOSE=1 odtwarzacz/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\odtwarzacz\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\odtwarzacz\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\bartek\CLionProjects\JiPP2-Bart-omiej-Milecki\cmake-build-debug\lab9\odtwarzacz\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/StopExample/Line.cpp">
-			<Option target="vectorExample"/>
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/odtwarzacz/src/main.cpp">
+			<Option target="odtwarzacz"/>
 		</Unit>
-		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/StopExample/Line.h">
-			<Option target="vectorExample"/>
-		</Unit>
-		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/StopExample/Stop.cpp">
-			<Option target="vectorExample"/>
-		</Unit>
-		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/StopExample/Stop.h">
-			<Option target="vectorExample"/>
-		</Unit>
-		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/StopExample/vExample.cpp">
-			<Option target="vectorExample"/>
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/odtwarzacz/src/odtwarzacz.cpp">
+			<Option target="odtwarzacz"/>
 		</Unit>
 		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
@@ -103,8 +96,8 @@
 		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab9\"/>
 		</Unit>
-		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/StopExample/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\lab9\StopExample\"/>
+		<Unit filename="C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/odtwarzacz/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab9\odtwarzacz\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -33,7 +33,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeSystem.cmake"
   "../lab9/CMakeLists.txt"
-  "../lab9/StopExample/CMakeLists.txt"
+  "../lab9/odtwarzacz/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -46,10 +46,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab9/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lab9/StopExample/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab9/odtwarzacz/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "lab9/StopExample/CMakeFiles/vectorExample.dir/DependInfo.cmake"
+  "lab9/odtwarzacz/CMakeFiles/odtwarzacz.dir/DependInfo.cmake"
   )

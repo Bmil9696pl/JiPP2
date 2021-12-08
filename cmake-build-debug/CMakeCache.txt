@@ -232,13 +232,13 @@ for-each_IS_TOP_LEVEL:STATIC=OFF
 for-each_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/for-each
 
 //Value Computed by CMake
-iterator_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/iterator
+iterator_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/upperCase
 
 //Value Computed by CMake
 iterator_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-iterator_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/iterator
+iterator_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/upperCase
 
 //Value Computed by CMake
 kontener2_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/kontener2
@@ -269,6 +269,24 @@ notes_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/c
 
 //Value Computed by CMake
 notes_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab8/notes
+
+//Value Computed by CMake
+odtwarzacz_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/odtwarzacz
+
+//Value Computed by CMake
+odtwarzacz_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+odtwarzacz_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/odtwarzacz
+
+//Value Computed by CMake
+upperCase_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/upperCase
+
+//Value Computed by CMake
+upperCase_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+upperCase_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/upperCase
 
 
 ########################

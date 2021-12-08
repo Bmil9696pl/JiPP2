@@ -106,17 +106,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named vectorExample
+# Target rules for targets named odtwarzacz
 
 # Build rule for target.
-vectorExample: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) vectorExample
-.PHONY : vectorExample
+odtwarzacz: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) odtwarzacz
+.PHONY : odtwarzacz
 
 # fast build rule for target.
-vectorExample\fast:
-	$(MAKE) $(MAKESILENT) -f lab9\StopExample\CMakeFiles\vectorExample.dir\build.make /nologo -$(MAKEFLAGS) lab9\StopExample\CMakeFiles\vectorExample.dir\build
-.PHONY : vectorExample\fast
+odtwarzacz\fast:
+	$(MAKE) $(MAKESILENT) -f lab9\odtwarzacz\CMakeFiles\odtwarzacz.dir\build.make /nologo -$(MAKEFLAGS) lab9\odtwarzacz\CMakeFiles\odtwarzacz.dir\build
+.PHONY : odtwarzacz\fast
 
 # Help Target
 help:
@@ -126,7 +126,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... vectorExample
+	@echo ... odtwarzacz
 .PHONY : help
 
 
