@@ -106,17 +106,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named odtwarzacz
+# Target rules for targets named linie
 
 # Build rule for target.
-odtwarzacz: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) odtwarzacz
-.PHONY : odtwarzacz
+linie: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) linie
+.PHONY : linie
 
 # fast build rule for target.
-odtwarzacz\fast:
-	$(MAKE) $(MAKESILENT) -f lab9\odtwarzacz\CMakeFiles\odtwarzacz.dir\build.make /nologo -$(MAKEFLAGS) lab9\odtwarzacz\CMakeFiles\odtwarzacz.dir\build
-.PHONY : odtwarzacz\fast
+linie\fast:
+	$(MAKE) $(MAKESILENT) -f lab10\linie\CMakeFiles\linie.dir\build.make /nologo -$(MAKEFLAGS) lab10\linie\CMakeFiles\linie.dir\build
+.PHONY : linie\fast
 
 # Help Target
 help:
@@ -126,7 +126,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... odtwarzacz
+	@echo ... linie
 .PHONY : help
 
 

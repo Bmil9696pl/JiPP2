@@ -355,9 +355,9 @@
 #endif
 
 /* Construct the string literal in pieces to prevent the source from
-   getting matched.  Store it in a pointer rather than an array
+   getting matched.  Store it in a pointer rather than an linie
    because some compilers will just produce instructions to fill the
-   array rather than assigning a pointer to a static array.  */
+   linie rather than assigning a pointer to a static linie.  */
 char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";
 #ifdef SIMULATE_ID
 char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";
@@ -675,9 +675,9 @@ char const info_simulate_version[] = {
 #endif
 
 /* Construct the string literal in pieces to prevent the source from
-   getting matched.  Store it in a pointer rather than an array
+   getting matched.  Store it in a pointer rather than an linie
    because some compilers will just produce instructions to fill the
-   array rather than assigning a pointer to a static array.  */
+   linie rather than assigning a pointer to a static linie.  */
 char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";
 char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
 

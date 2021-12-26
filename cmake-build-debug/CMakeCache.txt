@@ -217,6 +217,15 @@ JIPP2_IS_TOP_LEVEL:STATIC=ON
 JIPP2_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki
 
 //Value Computed by CMake
+array_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab10/array
+
+//Value Computed by CMake
+array_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+array_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab10/array
+
+//Value Computed by CMake
 figura_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab7/figura
 
 //Value Computed by CMake
@@ -259,6 +268,15 @@ kontener_IS_TOP_LEVEL:STATIC=OFF
 kontener_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/kontener2
 
 //Value Computed by CMake
+linie_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab10/linie
+
+//Value Computed by CMake
+linie_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+linie_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab10/linie
+
+//Value Computed by CMake
 matrixApp_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/matrixApp
 
 //Value Computed by CMake
@@ -280,6 +298,15 @@ odtwarzacz_IS_TOP_LEVEL:STATIC=OFF
 odtwarzacz_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/odtwarzacz
 
 //Value Computed by CMake
+szablon_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab10/szablon
+
+//Value Computed by CMake
+szablon_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+szablon_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab10/szablon
+
+//Value Computed by CMake
 upperCase_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/upperCase
 
 //Value Computed by CMake
@@ -287,6 +314,15 @@ upperCase_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 upperCase_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab9/upperCase
+
+//Value Computed by CMake
+vector_BINARY_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab10/vector
+
+//Value Computed by CMake
+vector_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+vector_SOURCE_DIR:STATIC=C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/lab10/vector
 
 
 ########################

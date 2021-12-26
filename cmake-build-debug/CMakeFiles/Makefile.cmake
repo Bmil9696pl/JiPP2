@@ -32,8 +32,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.21.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.21.1/CMakeSystem.cmake"
-  "../lab9/CMakeLists.txt"
-  "../lab9/odtwarzacz/CMakeLists.txt"
+  "../lab10/CMakeLists.txt"
+  "../lab10/linie/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,11 +45,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lab9/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lab9/odtwarzacz/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab10/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lab10/linie/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "lab9/odtwarzacz/CMakeFiles/odtwarzacz.dir/DependInfo.cmake"
+  "lab10/linie/CMakeFiles/linie.dir/DependInfo.cmake"
   )

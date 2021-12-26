@@ -1,7 +1,7 @@
 C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/CMakeFiles/edit_cache.dir
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/CMakeFiles/rebuild_cache.dir
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/odtwarzacz/CMakeFiles/odtwarzacz.dir
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/odtwarzacz/CMakeFiles/edit_cache.dir
-C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab9/odtwarzacz/CMakeFiles/rebuild_cache.dir
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab10/CMakeFiles/edit_cache.dir
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab10/CMakeFiles/rebuild_cache.dir
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab10/linie/CMakeFiles/linie.dir
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab10/linie/CMakeFiles/edit_cache.dir
+C:/Users/bartek/CLionProjects/JiPP2-Bart-omiej-Milecki/cmake-build-debug/lab10/linie/CMakeFiles/rebuild_cache.dir
