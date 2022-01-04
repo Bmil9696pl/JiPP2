@@ -33,7 +33,6 @@ public:
         oneVal a;
         a = first;
         while(a.empty==false && a.next != nullptr){
-            a;
             a = a.next;
         }
         if(a.next == nullptr){
